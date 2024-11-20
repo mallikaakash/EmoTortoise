@@ -36,9 +36,9 @@ EmoTortoise TTS is an emotion-enhanced audio cloning algorithm that integrates e
 
 ```bash
 python scripts/data_preprocessing.py
+```
 
-
-2. Train Emotion Detection Models
+### **2. Train Emotion Detection Models**
 Text-Based Emotion Detector
 bash
 Copy code
@@ -47,26 +47,29 @@ Audio-Based Emotion Detector
 bash
 Copy code
 python models/emotion_detection/train_audio_emotion_detector.py
-3. Train EmoTortoise TTS
+### **3. Train EmoTortoise TTS**
 bash
 Copy code
 python scripts/train_emotortoise_tts.py
-4. Synthesize Speech with Emotions
+### **4. Synthesize Speech with Emotions**
 bash
 Copy code
 python scripts/synthesize_audio.py
-5. Evaluate the Model
+### **5. Evaluate the Model**
 bash
 Copy code
 python scripts/evaluate.py
-Evaluation
+### **Evaluation**
+
 Objective Metrics: Mel Cepstral Distortion (MCD), emotion classification accuracy.
 Subjective Metrics: User listening tests for emotional authenticity and naturalness.
 Visualization: Mel-spectrograms, prosodic feature plots, confusion matrices.
-Contributing
+
+### **Contributing**
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
 
-License
+
+### License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 markdown
